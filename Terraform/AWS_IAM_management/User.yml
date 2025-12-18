@@ -1,0 +1,7 @@
+users:
+  - username: abhi
+    roles: [AmazonS3FullAccess ] # Single role in list format [] this is symbol of list format
+  - username: jit
+    roles: [AmazonEC2ContainerRegistryFullAccess, AmazonEC2FullAccess ] # Added multiple roles in list format
+  - username: roy
+    roles: [AmazonDynamoDBFullAccess ]
